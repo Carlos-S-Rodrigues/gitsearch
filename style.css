@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 67.5%;
+  --body-bg:rgb(212, 212, 212);
+  --primary-color:hsl(132, 90%, 20%);
+  --nav-font-color:hsl(1, 1%, 100%);
+
+}
+
+body{
+  font-size: 1.6rem;
+  background-color: var(--body-bg);
+}
+
+.navbar{
+  background: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .logo{
+  color:var(--nav-font-color);
+  font-size: 1.8rem;
+}
+
+
+.navbar ul{
+  list-style: none;
+  font-size: 1.6rem;
+  display: flex;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  padding: 1rem;
+  color: var(--nav-font-color);
+}
+
+.navbar ul li a:hover{
+color: hsl(138, 57%, 9%);
+}
+
+main h1{
+  font-size: 2rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--nav-font-color);
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+main .search-bar{
+  width: 100%;
+  border: 2px solid black;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.profile{
+  max-width: 68%;
+  margin: auto;
+  margin-top:4rem;
+}
+
+
+.card{
+  max-height: 40rem;
+  display: flex;
+  border-radius: 8px;
+}
+
+.card-img-top{
+  
+  max-width: 20rem;
+  display: flex;
+  margin: auto;
+  border: 2px solid green;
+  border-radius: 8px;
+}
+
+.card-body a{
+  background-color: var(--primary-color);
+  color:var(--nav-font-color);
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.profile ul li span{
+  color:black;
+}
