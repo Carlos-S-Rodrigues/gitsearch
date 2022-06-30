@@ -1,7 +1,7 @@
-<h1 align="center">Plataforma de vídeos - IgniteLab</h1>
+<h1 align="center">GitSearch</h1>
 
 <h1 align="center">
-    <a href="https://vitejs.dev/guide/#browser-support">🔗 Vite/React/TypeScript</a>
+    <a href="#"> JavaScript(Projeto antigo que não tinha subido pro GH ainda)</a>
 </h1>
 <ul>
   <li> Projeto em HTML/CSS/JavaScript,</li>
